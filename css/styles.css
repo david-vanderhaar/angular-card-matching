@@ -1,0 +1,70 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  color: #1C2130;
+  font-size: 40px;
+  text-align: center;
+  background-color: #FFF7DF;
+
+}
+
+.container {
+  width: 100%;
+}
+
+.col {
+  border: solid #FFF7DF;
+}
+
+.card {
+  padding: 5% 3%;
+  border: solid #FFF7DF;
+  border-radius: 10%;
+  background-color: #1C2130;
+  transition: 2s;
+}
+
+.card:hover {
+  border-color: white;
+  /*padding: 5% 8%;*/
+
+}
+
+.revealed {
+  /*border-color: white;*/
+  background-color: #FFF7DF;
+    /*padding: 5% 8%;*/
+
+  transition: 2s;
+}
+
+.card-text {
+  /*position: absolute;
+  left: 0;
+  top: 0;*/
+  text-align: center;
+  font-size: 50%;
+}
+
+.player1 {
+    border-color: #D14334;
+    color: #D14334;
+}
+
+.player2 {
+  border-color: #028F76;
+  color: #028F76;  
+}
+
+.player1:hover {
+    border-color: #D14334;
+}
+
+.player2:hover {
+  border-color: #028F76;  
+}
+
