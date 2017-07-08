@@ -1,31 +1,3 @@
-// function InlineEditorController($scope) {
-
-// $scope.value = 'Click to edit me.';
-// $scope.showToolTip = false;
-
-// $scope.toggleToolTip = function(e) {
-//   e.stopPropagation();
-//   $scope.showToolTip = !$scope.showToolTip;
-// }
-
-// $scope.hideToolTip = function(e) {
-//   $scope.showToolTip = false;
-// }
-
-// }
-
-
-// angular.module('app', []).controller('InlineEditorController', InlineEditorController);
-
-// var app = angular.module("myApp", []);
-// app.controller("myCtrl", function($scope) {
-//   $scope.myObj = {
-//     "Name" : "Alfreds Futterkiste",
-//     "Country" : "Germany",
-//     "City" : "Berlin"
-//   }
-// });
-
 
 function fillTable($scope) {
 
