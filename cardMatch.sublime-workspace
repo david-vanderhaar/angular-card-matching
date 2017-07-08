@@ -4,44 +4,104 @@
 		"selected_items":
 		[
 			[
-				"ng-s",
-				"ng-show\tAngularJS"
+				"wat",
+				"watchId"
 			],
 			[
-				"gl",
-				"glyphicon-bell \tBootstrap 3 Class"
+				"con",
+				"consoleDisplay"
 			],
 			[
-				"pla",
-				"playerTurn"
+				"set",
+				"setPosition"
 			],
 			[
-				"ca",
-				"cardsOpen"
+				"monster",
+				"monsterMarkerCluster"
 			],
 			[
-				"cardsMAtched",
-				"cardsMatched1"
+				"monst",
+				"monsterMarkers"
 			],
 			[
-				"card",
-				"cardVal"
+				"mons",
+				"monsterMarkers"
 			],
 			[
-				"cards",
-				"cardsOpen"
+				"mon",
+				"monsterMarkers"
 			],
 			[
-				"ng",
-				"ng-class\tAngularJS"
+				"ad",
+				"adventurerSymbolPath"
 			],
 			[
-				"ng-cl",
-				"ng-click\tAngularJS"
+				"map",
+				"mapStyles"
 			],
 			[
-				"bac",
-				"background-color"
+				"get",
+				"getCurrentLocation"
+			],
+			[
+				"mar",
+				"markers"
+			],
+			[
+				"glyphicon-tra",
+				"glyphicon-trash \tBootstrap 3 Class"
+			],
+			[
+				"btn",
+				"btn-danger \tBootstrap 3 Class"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"safeSort",
+				"safeSortTasksPrevious"
+			],
+			[
+				"sortTa",
+				"sortTasks"
+			],
+			[
+				"sortTask",
+				"safeSortTasks"
+			],
+			[
+				"status",
+				"statusAlertType"
+			],
+			[
+				"input-gr",
+				"input-group-sm \tBootstrap 3 Class"
+			],
+			[
+				"getTags",
+				"getTagsForTasks"
+			],
+			[
+				"offset",
+				"col-lg-offset-2 \tBootstrap 3 Class"
+			],
+			[
+				"safeta",
+				"safetag_id"
+			],
+			[
+				"btn-",
+				"btn-primary \tBootstrap 3 Class"
+			],
+			[
+				"getTas",
+				"getTaskDur"
 			],
 			[
 				"update",
@@ -86,10 +146,6 @@
 			[
 				"res",
 				"res"
-			],
-			[
-				"get",
-				"getElementsByClassName"
 			],
 			[
 				"getElementBy",
@@ -138,10 +194,6 @@
 			[
 				"te",
 				"temp"
-			],
-			[
-				"con",
-				"convertKtoF"
 			],
 			[
 				"display",
@@ -222,10 +274,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"fo",
@@ -375,6 +423,13 @@
 	},
 	"buffers":
 	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -548,7 +603,7 @@
 				"Git: Status"
 			]
 		],
-		"width": 467.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -599,14 +654,26 @@
 	},
 	"expanded_folders":
 	[
-		"/home/dvanderhaar/bootcamp-s17/cardMatching/dist"
+		"/home/dvanderhaar/bootcamp-s17/angular/cardMatching"
 	],
 	"file_history":
 	[
-		"/home/dvanderhaar/bootcamp-s17/cardMatching/dist/index.html",
-		"/home/dvanderhaar/bootcamp-s17/cardMatching/dist/main.js",
-		"/home/dvanderhaar/bootcamp-s17/cardMatching/dist/css/styles.css",
-		"/home/dvanderhaar/bootcamp-s17/cardMatching/gulpfile.js",
+		"/home/dvanderhaar/bootcamp-s17/laravel/ipam-master/docs/IPAMspec.rtf",
+		"/home/dvanderhaar/bootcamp-s17/jekyll/blog/_posts/2017-06-24-jekyll-is-easy.md",
+		"/home/dvanderhaar/bootcamp-s17/datenight/app/foodApi.js",
+		"/home/dvanderhaar/Downloads/winged-sword.svg",
+		"/home/dvanderhaar/Downloads/vile-fluid.svg",
+		"/home/dvanderhaar/Downloads/bookmark.svg",
+		"/home/dvanderhaar/personal-web/fantasy-caching/app/css/styles.css",
+		"/home/dvanderhaar/.bashrc",
+		"/home/dvanderhaar/personal-web/fantasy-caching/app/map.js",
+		"/home/dvanderhaar/personal-web/portfolio-grayscale/index.md",
+		"/home/dvanderhaar/bootcamp-s17/timetracker/app/timeTrackerDb.php",
+		"/home/dvanderhaar/bootcamp-s17/timetracker/timetracker.sublime-project",
+		"/home/dvanderhaar/bootcamp-s17/blog/_posts/2017-06-04-a-str-is-easy.md",
+		"/home/dvanderhaar/bootcamp-s17/blog/_posts/2017-06-09-a-red-is-easy.md",
+		"/home/dvanderhaar/bootcamp-s17/blog/_config.yml",
+		"/home/dvanderhaar/bootcamp-s17/blog/README.md",
 		"/home/dvanderhaar/bootcamp-s17/blog/.gitignore",
 		"/home/dvanderhaar/bootcamp-s17/weather (copy)/html5up-dimension/index.html",
 		"/home/dvanderhaar/bootcamp-s17/david-vanderhaar.github.io/index.html",
@@ -635,7 +702,6 @@
 		"/home/dvanderhaar/bootcamp-s17/blog-harmony/harmony/index.html",
 		"/home/dvanderhaar/bootcamp-s17/blog-harmony/harmony/_includes/header-links.html",
 		"/home/dvanderhaar/bootcamp-s17/blog-harmony/harmony/_posts/2014-08-19-sample-post.markdown",
-		"/home/dvanderhaar/bootcamp-s17/blog/_config.yml",
 		"/home/dvanderhaar/bootcamp-s17/blog-tielove/_config.yml",
 		"/home/dvanderhaar/bootcamp-s17/blog-tielove/_posts/2017-05-26-md-is-easy.markdown",
 		"/home/dvanderhaar/bootcamp-s17/test/app/cscc/main.scss",
@@ -719,22 +785,11 @@
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_5.md",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_6.md",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_2_1.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/README.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/Contents.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/tutorial.sublime-completions",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Tutorial/chapter_1.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Tutorial/sublimetutor.sublime-project",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default.sublime-commands",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Default.sublime-commands",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/sublime_tutor.py",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/Main.sublime-menu",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/SublimeTutor.sublime-commands"
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/README.md"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -842,6 +897,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"statusDisplay",
 			"eqStack",
 			".",
 			"D",
@@ -968,8 +1024,7 @@
 			"options[:booking",
 			"booking: true",
 			"helpline_number",
-			"short: true",
-			"short"
+			"short: true"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1013,14 +1068,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -1061,7 +1144,7 @@
 	"project": "cardMatch.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1593,7 +1676,7 @@
 		[
 			[
 				"",
-				"~/bootcamp-s17/timetracker/timetracker.sublime-project"
+				"~/bootcamp-s17/cardMatching/cardMatch.sublime-workspace"
 			]
 		],
 		"width": 380.0

@@ -5,66 +5,59 @@ html {
 
 body {
   width: 100%;
-  color: #1C2130;
+  color: #D14334;
   font-size: 40px;
   text-align: center;
   background-color: #FFF7DF;
 
 }
 
-.container {
-  width: 100%;
-}
 
 .col {
   border: solid #FFF7DF;
 }
 
 .card {
-  padding: 5% 3%;
+  height: 20vh;
   border: solid #FFF7DF;
   border-radius: 10%;
-  background-color: #1C2130;
+  background-color: #D14334;
   transition: 2s;
 }
 
 .card:hover {
-  border-color: white;
-  /*padding: 5% 8%;*/
+  border-color: #D14334;
 
 }
 
 .revealed {
-  /*border-color: white;*/
+  border-color: black;
   background-color: #FFF7DF;
-    /*padding: 5% 8%;*/
-
   transition: 2s;
 }
 
 .card-text {
-  /*position: absolute;
-  left: 0;
-  top: 0;*/
+  position: relative;
+  top: 40%;
   text-align: center;
-  font-size: 50%;
+  font-size: 70%;
 }
 
 .player1 {
-    border-color: #D14334;
-    color: #D14334;
+    border-color: #885053;
+    color: #885053;
 }
 
 .player2 {
-  border-color: #028F76;
-  color: #028F76;  
+  border-color: #777DA7;
+  color: #777DA7;  
 }
 
 .player1:hover {
-    border-color: #D14334;
+    border-color: #885053;
 }
 
 .player2:hover {
-  border-color: #028F76;  
+  border-color: #777DA7;  
 }
 

@@ -44,13 +44,13 @@ function fillTable($scope) {
     for (var i = 0; i < 52; i++) {
 
         if (Math.floor(i%4) == 0) {
-            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'hearts', 'index':i, 'reveal': false, 'player':0});
+            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'\u2661', 'index':i, 'reveal': false, 'player':0});
         } else if (Math.floor(i%4) == 1) {
-            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'spades', 'index':i, 'reveal': false, 'player':0});
+            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'\u2664', 'index':i, 'reveal': false, 'player':0});
         } else if (Math.floor(i%4) == 2) {
-            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'diamonds', 'index':i, 'reveal': false, 'player':0});
+            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'\u2662', 'index':i, 'reveal': false, 'player':0});
         } else if (Math.floor(i%4) == 3) {
-            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'clubs', 'index':i, 'reveal': false, 'player':0});
+            $scope.cards.push({'cardVal':(i%13) + 1, 'suit':'\u2667', 'index':i, 'reveal': false, 'player':0});
         }
        // $scope.cards.push({'cardVal':i, 'suit':Math.floor(i/3)});
         $scope.cardsShuffled = $scope.cards.sort(function(a, b){return 0.5 - Math.random()});
@@ -62,10 +62,6 @@ function fillTable($scope) {
         $scope.set3 = $scope.cards.slice(13*2,13*3);
         $scope.set4 = $scope.cards.slice(13*3,13*4);
     
-
-        // console.log($scope.cards);
-        // console.log($scope.set1)
-        // console.log($scope.set2);
 
         function hide () {
             console.log($scope.cardsOpen);            
@@ -107,8 +103,7 @@ function fillTable($scope) {
                     console.log('match 2 ' + $scope.cardsMatched2);
                     $scope.cardsOpen = [];
                 } else {
-                    // $scope.cardsOpen[0].reveal = false;
-                    // $scope.cardsOpen[1].reveal = false;
+
                     setTimeout(hide, 500)
                     $scope.player1Turn = !$scope.player1Turn
 
@@ -116,7 +111,6 @@ function fillTable($scope) {
                 }
                 
             }
-            //$scope.cardsOpen.map(a => a.reveal = true);
             console.log('playerTurn ' + $scope.player1Turn);
         }
 
@@ -127,14 +121,7 @@ function fillTable($scope) {
                     handleOpen();  
                     console.log($scope.cardsOpen);
                 }
-                
-                // card.reveal = true;
-                // if ($scope.cardsOpen.length == 2) {
-                //     $scope.cardsOpen = [];
-                // }
-                //card.reveal = !card.reveal; 
 
-            
         }
 
         
