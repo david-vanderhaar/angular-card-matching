@@ -31,7 +31,7 @@ body {
 }
 
 .revealed {
-  border-color: black;
+  border-color: yellowgreen;
   background-color: #FFF7DF;
   transition: 2s;
 }
